@@ -1,0 +1,85 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+} 
+.header-container{ 
+    height: 50vh;
+    background: #FAFAFA;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+} 
+.header-title{ 
+    font-size: 30px;
+} 
+.header-description{ 
+    width: 30%;
+} 
+.header-para{ 
+    color: #000;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+} 
+.description-title{ 
+    color: #000;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+} 
+.img1, .img2, .img3, .img4, .img5, .img6{ 
+     width: 80%; 
+    height: 80%; 
+} 
+.img2{ 
+   margin-top: 120px;
+} 
+.img5{ 
+   margin-top: 120px;
+
+}
+
+
+.banner-container{ 
+    width: 100%;
+    display: grid; 
+   grid-template-columns: repeat(3,1fr); 
+
+} 
+.name{ 
+    font-weight: bolder;
+} 
+
+footer{ 
+    height: 30vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: end; 
+    padding: 15px 10px;
+} 
+
+@media screen and (max-width:576px) {
+    .header-container{ 
+        flex-direction: column; 
+        align-items: start; 
+        padding: 5px 17px;
+    }
+     .header-description{ 
+        width: 80%;
+     } 
+     .saba{ 
+        margin-bottom: 85px;
+     }
+ .banner-container{ 
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px; 
+    
+
+
+  }
